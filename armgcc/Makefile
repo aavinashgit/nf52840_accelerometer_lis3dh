@@ -150,7 +150,7 @@ help:
 	@echo		flash      - flashing binary
 
 TEMPLATE_PATH := $(PROJ_DIR)/tools/toolchain/gcc
-GNU_INSTALL_ROOT := $(PROJ_DIR)/tools/GNU Tools ARM Embedded/7 2017-q4-major/bin/
+GNU_INSTALL_ROOT := $(PROJ_DIR)/tools/gnu_tools/7_2017_q4_major/bin/
 GNU_VERSION := 7.2.1
 GNU_PREFIX := arm-none-eabi
 
