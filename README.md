@@ -1,5 +1,5 @@
 # nf52840_accelerometer_lis3dh
-nrf52840 vibration detection using LIS3DH accelerometer
+vibration detection using nrf52840 interfaced to LIS3DH accelerometer
 
 # Source File Path
 \src\main.c
