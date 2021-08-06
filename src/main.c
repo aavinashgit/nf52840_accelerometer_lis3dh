@@ -57,7 +57,6 @@
 #include "app_error.h"
 #include "app_timer.h"
 #include "nrf_drv_twi.h"
-#include "nrf_delay.h"
 #include "nrf_drv_clock.h"
 
 #include "nrf_log.h"
@@ -276,7 +275,7 @@ static void read_sensor_to_buff(void)
     cmnd = LIS3DH_OUT_Z_H;
     err_code = nrf_drv_twi_tx(&m_twi, LIS3DH_ADDRESS, &cmnd, sizeof(cmnd),false);
     APP_ERROR_CHECK(err_code);
-    nrf_delay_ms(100);      
+     
 
     err_code = nrf_drv_twi_rx(&m_twi, LIS3DH_ADDRESS, &sample_data, 1);
     APP_ERROR_CHECK(err_code);    
@@ -285,7 +284,6 @@ static void read_sensor_to_buff(void)
     cmnd = LIS3DH_OUT_Z_L;
     err_code = nrf_drv_twi_tx(&m_twi, LIS3DH_ADDRESS, &cmnd, sizeof(cmnd),false);
     APP_ERROR_CHECK(err_code);
-    nrf_delay_ms(100);
   
     err_code = nrf_drv_twi_rx(&m_twi, LIS3DH_ADDRESS, &sample_data, 1);
     APP_ERROR_CHECK(err_code);
