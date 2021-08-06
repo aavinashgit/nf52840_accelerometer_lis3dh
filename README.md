@@ -12,7 +12,9 @@ Notes:
 2. SDK and build tools are part of the repo
 
 # Build commands
+
 Compile: make
+
 Clean:   make clean
 
 # Build folder path
