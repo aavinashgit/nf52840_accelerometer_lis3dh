@@ -73,7 +73,6 @@ _build/nrf52840_xxaa/main.c.o: ../src/main.c \
  ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal/nrf_twim.h \
  ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/drivers/include/nrfx_twi.h \
  ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal/nrf_twi.h \
- ../nRF5_SDK_15.3.0_59ac345/components/libraries/delay/nrf_delay.h \
  ../nRF5_SDK_15.3.0_59ac345/integration/nrfx/legacy/nrf_drv_clock.h \
  ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/drivers/include/nrfx_clock.h \
  ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal/nrf_clock.h \
@@ -247,8 +246,6 @@ c:\git_proj\nf52840_accelerometer_lis3dh\tools\gnu_tools\7_2017_q4_major\lib\gcc
 ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/drivers/include/nrfx_twi.h:
 
 ../nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal/nrf_twi.h:
-
-../nRF5_SDK_15.3.0_59ac345/components/libraries/delay/nrf_delay.h:
 
 ../nRF5_SDK_15.3.0_59ac345/integration/nrfx/legacy/nrf_drv_clock.h:
 
